@@ -1,0 +1,10 @@
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\bin\Release\LoggerEngine.exe.config
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\bin\Release\LoggerEngine.exe
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\bin\Release\LoggerEngine.pdb
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\bin\Release\Newtonsoft.Json.dll
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\bin\Release\Newtonsoft.Json.xml
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\obj\Release\LoggerEngine.csproj.CoreCompileInputs.cache
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\obj\Release\LoggerEngine.csproj.CopyComplete
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\obj\Release\LoggerEngine.exe
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\obj\Release\LoggerEngine.pdb
+C:\Users\prakash-14555\source\repos\LoggerEngine\LoggerEngine\obj\Release\LoggerEngine.csproj.AssemblyReference.cache
