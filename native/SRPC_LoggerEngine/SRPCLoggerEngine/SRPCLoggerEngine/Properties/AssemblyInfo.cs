@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LoggerEngine")]
+[assembly: AssemblyTitle("SRPCLoggerEngine")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LoggerEngine")]
+[assembly: AssemblyProduct("SRPCLoggerEngine")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9aca055a-5a30-4a69-8819-4c4bbec16034")]
+[assembly: Guid("e9add39a-9b35-4aa9-b5a6-c9ffab9b601d")]
 
 // Version information for an assembly consists of the following four values:
 //
