@@ -1,31 +1,58 @@
 ﻿using System;
 using System.IO;
 using System.ServiceProcess;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Timers;
 
 namespace SRPCLoggerEngine
 {
     public partial class LoggerEngineService : ServiceBase
     {
-        Timer timer = new Timer(); // name space(using System.Timers;)
+        private CancellationTokenSource _cancellationTokenSource;
+        private Task _backgroundTask;
+        public InitEngine EngineKey = new InitEngine("ZohoAssist");
         public LoggerEngineService()
         {
             InitializeComponent();
         }
         protected override void OnStart(string[] args)
         {
-            WriteToFile("Service is started at " + DateTime.Now);
-            timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
-            timer.Interval = 5000; //number in milisecinds
-            timer.Enabled = true;
+            _cancellationTokenSource = new CancellationTokenSource();
+            _backgroundTask = Task.Run(() => MainLoop(_cancellationTokenSource.Token), _cancellationTokenSource.Token);
         }
+
+        private void MainLoop(CancellationToken cancellationToken)
+        {
+            EngineKey.startEngine();
+            while (!cancellationToken.IsCancellationRequested)
+            {
+                WriteToFile("Service is heartbeat running at " + DateTime.Now);
+                Thread.Sleep(2000);
+            }
+
+            Console.WriteLine("Service stopped.");
+        }
+
         protected override void OnStop()
         {
-            WriteToFile("Service is stopped at " + DateTime.Now);
+            EngineKey.stopEngine();
+
+            if (_cancellationTokenSource != null)
+            {
+                _cancellationTokenSource.Cancel();
+            }
+
+            if (_backgroundTask != null)
+            {
+                _backgroundTask.Wait();
+            }
+            
+            WriteToFile("Service is stopped by pk at " + DateTime.Now);
         }
         private void OnElapsedTime(object source, ElapsedEventArgs e)
         {
-            WriteToFile("Service is recall at " + DateTime.Now);
+            WriteToFile("Service is heartbeat at " + DateTime.Now);
         }
         public void WriteToFile(string Message)
         {
@@ -37,7 +64,6 @@ namespace SRPCLoggerEngine
             string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\Logs\\ServiceLog_" + DateTime.Now.Date.ToShortDateString().Replace('/', '_') + ".txt";
             if (!File.Exists(filepath))
             {
-                // Create a file to write to.
                 using (StreamWriter sw = File.CreateText(filepath))
                 {
                     sw.WriteLine(Message);

@@ -54,9 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EngineInit.cs" />
     <Compile Include="FileOperator.cs" />
     <Compile Include="PipeLineUtil.cs" />
-    <Compile Include="EngineInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
