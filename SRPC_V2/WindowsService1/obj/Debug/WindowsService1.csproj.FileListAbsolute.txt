@@ -1,0 +1,7 @@
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.AssemblyReference.cache
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.CoreCompileInputs.cache
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\bin\Debug\CentralLogStreamHandler.exe.config
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\bin\Debug\CentralLogStreamHandler.exe
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\bin\Debug\CentralLogStreamHandler.pdb
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\CentralLogStreamHandler.exe
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\CentralLogStreamHandler.pdb

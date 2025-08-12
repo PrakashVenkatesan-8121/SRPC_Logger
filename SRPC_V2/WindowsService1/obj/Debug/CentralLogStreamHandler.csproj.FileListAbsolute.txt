@@ -1,0 +1,14 @@
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\bin\Debug\CentralLogStreamHandler.exe.config
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\bin\Debug\CentralLogStreamHandler.exe
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\bin\Debug\CentralLogStreamHandler.pdb
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\CentralLogStreamHandler.csproj.AssemblyReference.cache
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\CentralLogStreamHandler.csproj.CoreCompileInputs.cache
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\CentralLogStreamHandler.exe
+C:\Users\prakash-14555\source\repos\WindowsService1\WindowsService1\obj\Debug\CentralLogStreamHandler.pdb
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\bin\Debug\CentralLogStreamHandler.exe.config
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\bin\Debug\CentralLogStreamHandler.exe
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\bin\Debug\CentralLogStreamHandler.pdb
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\obj\Debug\CentralLogStreamHandler.csproj.AssemblyReference.cache
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\obj\Debug\CentralLogStreamHandler.csproj.CoreCompileInputs.cache
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\obj\Debug\CentralLogStreamHandler.exe
+D:\PK_Personal\hobby\SRPC_Logger\SRPC_V2\WindowsService1\obj\Debug\CentralLogStreamHandler.pdb
